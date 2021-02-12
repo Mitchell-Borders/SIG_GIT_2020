@@ -3,5 +3,11 @@ public static void main(String[] args) {
 	System.out.println("AHHHHHHHH");
 	int x = 10;
 	System.out.println(x);
+
+	//best way to assign 10
+	do{
+		Random rand = new Random();
+		int ten = rand.nextInt(10) + 1;
+	}while(ten != 10);
 }
 fsadsghklj;asfghrewatgkjhewtrydfh
